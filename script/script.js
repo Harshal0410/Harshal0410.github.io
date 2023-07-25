@@ -8,7 +8,7 @@ var typed = new Typed(".multiple-text", {
 
 // Replace with your EmailJS public key, template ID, and service ID
 const EMAILJS_KEY = "lIgWYuIs_YmLndgfU";
-const EMAILJS_TEMPLATE_ID = "template_a575dqm";
+const EMAILJS_TEMPLATE_ID = "template_44kmfkv";
 const EMAILJS_SERVICE_ID = "service_ona15c7";
 emailjs.init(EMAILJS_KEY);
 let form=document.getElementById("myform");

@@ -16,6 +16,7 @@
   --second-bg-color: #323946;
   --text-color: #fff;
   --main-color: #0ef;
+  /* --main-color: #30fe6c; */
 }
 
 html {
@@ -34,6 +35,16 @@ html {
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
+#user-detail-intro {
+    /* border: 1px solid red; */
+    width: 70%;
+    text-align: center;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
 
 .social-media a {
   display: inline-flex;
@@ -234,28 +245,38 @@ nav ul li a:hover::after {
 
 /* About */
 #about {
+  margin-top: -5%;
   padding: 80px 0;
   color: #ababab;
 }
 
 .row {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-content: center;
 }
 
 .about-col-1 {
-  flex-basis: 35%;
+  /* flex-basis: 100%; */
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
 }
 
 .about-col-1 img {
-  width: 105%;
-  height: 75%;
+  width: 25%;
+  /* height: 75%; */
   border-radius: 5%;
+  /* border: 1px solid yellow; */
 }
 
 .about-col-2 {
-  flex-basis: 60%;
+  /* flex-basis: 60%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sub-title {
@@ -300,6 +321,11 @@ nav ul li a:hover::after {
   transition: transform 0.5s;
 }
 
+#calendar{
+    width: 95%;
+    margin: 3% 1%;
+    /* border: 1px solid red; */
+}
 
 .layer {
   width: 100%;
@@ -358,6 +384,9 @@ nav ul li a:hover::after {
 }
 
 /* Contact */
+.row1{
+    display: flex;
+}
 #contact {
   padding-top: 60px;
 }
@@ -457,7 +486,7 @@ form textarea {
 
 /* Skill */
 #skills {
- padding-top: 90px;
+ padding-top: -10px;
   width: 100%;
 }
 
