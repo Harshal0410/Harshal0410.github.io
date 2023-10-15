@@ -654,6 +654,13 @@ nav .fa-solid {
     padding: 15px 4%;
   }
 
+  .row1{
+    display: block;
+  }
+  .contact-right{
+    text-align: center;
+  }
+
   /* nav .fa-solid {
     display: block;
     font-size: 25px;
@@ -714,6 +721,12 @@ nav .fa-solid {
 }
 
 @media only screen and (min-width: 350px) and (max-width: 499px) {
+  .row1{
+    display: block;
+  }
+  .contact-right{
+    text-align: center;
+  }
   .nav-wrapper {
     padding: 15px 4%;
   }
@@ -809,6 +822,13 @@ nav .fa-solid {
   nav .fa-solid {
     display: block;
     font-size: 25px;
+  }
+
+  .row1{
+    display: block;
+  }
+  .contact-right{
+    text-align: center;
   }
 
   .header-text {
